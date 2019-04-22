@@ -1,14 +1,14 @@
 package main.java.com.imooc.security.hmac;
 
-import javax.crypto.KeyGenerator;
-import javax.crypto.Mac;
-import javax.crypto.SecretKey;
-import javax.crypto.spec.SecretKeySpec;
-
 import org.apache.commons.codec.binary.Hex;
 import org.bouncycastle.crypto.digests.MD5Digest;
 import org.bouncycastle.crypto.macs.HMac;
 import org.bouncycastle.crypto.params.KeyParameter;
+
+import javax.crypto.KeyGenerator;
+import javax.crypto.Mac;
+import javax.crypto.SecretKey;
+import javax.crypto.spec.SecretKeySpec;
 
 public class ImoocHmac {
 	private static String src = "imooc security hmac"; 

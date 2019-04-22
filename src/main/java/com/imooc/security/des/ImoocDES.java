@@ -1,16 +1,15 @@
 package main.java.com.imooc.security.des;
 
-import java.security.Key;
-import java.security.Security;
+import org.apache.commons.codec.binary.Hex;
+import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.DESKeySpec;
-
-import org.apache.commons.codec.binary.Hex;
-import org.bouncycastle.jce.provider.BouncyCastleProvider;
+import java.security.Key;
+import java.security.Security;
 
 public class ImoocDES {
 

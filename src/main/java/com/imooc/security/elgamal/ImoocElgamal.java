@@ -1,22 +1,13 @@
 package main.java.com.imooc.security.elgamal;
 
-import java.security.AlgorithmParameterGenerator;
-import java.security.AlgorithmParameters;
-import java.security.KeyFactory;
-import java.security.KeyPair;
-import java.security.KeyPairGenerator;
-import java.security.PrivateKey;
-import java.security.PublicKey;
-import java.security.SecureRandom;
-import java.security.Security;
-import java.security.spec.PKCS8EncodedKeySpec;
-import java.security.spec.X509EncodedKeySpec;
+import org.apache.commons.codec.binary.Base64;
+import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.DHParameterSpec;
-
-import org.apache.commons.codec.binary.Base64;
-import org.bouncycastle.jce.provider.BouncyCastleProvider;
+import java.security.*;
+import java.security.spec.PKCS8EncodedKeySpec;
+import java.security.spec.X509EncodedKeySpec;
 
 public class ImoocElgamal {
 	private static String src = "imooc security Elgamal" ;

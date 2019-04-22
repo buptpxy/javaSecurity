@@ -1,12 +1,12 @@
 package main.java.com.imooc.security.sha;
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-
 import org.apache.commons.codec.binary.Hex;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.bouncycastle.crypto.Digest;
 import org.bouncycastle.crypto.digests.SHA1Digest;
+
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 
 public class ImoocSHA {
 	private static String src = "imooc security sha";

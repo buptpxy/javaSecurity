@@ -1,14 +1,13 @@
 package main.java.com.imooc.security.pbe;
 
-import java.security.Key;
-import java.security.SecureRandom;
+import org.apache.commons.codec.binary.Hex;
 
 import javax.crypto.Cipher;
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.PBEKeySpec;
 import javax.crypto.spec.PBEParameterSpec;
-
-import org.apache.commons.codec.binary.Hex;
+import java.security.Key;
+import java.security.SecureRandom;
 
 public class ImoocPBE {
 	private static String src = "imooc security pbe"; 

@@ -1,14 +1,14 @@
 package main.java.com.imooc.security.md;
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.security.Security;
-
 import org.apache.commons.codec.binary.Hex;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.bouncycastle.crypto.Digest;
 import org.bouncycastle.crypto.digests.MD5Digest;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
+
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.security.Security;
 
 public class ImoocMD {
 

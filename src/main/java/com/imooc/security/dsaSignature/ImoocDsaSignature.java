@@ -1,18 +1,12 @@
 package main.java.com.imooc.security.dsaSignature;
 
-import java.security.KeyFactory;
-import java.security.KeyPair;
-import java.security.KeyPairGenerator;
-import java.security.NoSuchAlgorithmException;
-import java.security.PrivateKey;
-import java.security.PublicKey;
-import java.security.Signature;
+import org.apache.commons.codec.binary.Hex;
+
+import java.security.*;
 import java.security.interfaces.DSAPrivateKey;
 import java.security.interfaces.DSAPublicKey;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
-
-import org.apache.commons.codec.binary.Hex;
 
 public class ImoocDsaSignature {
 
